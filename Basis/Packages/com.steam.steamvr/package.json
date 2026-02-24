@@ -1,0 +1,8 @@
+{
+  "name": "com.steam.steamvr",
+  "displayName": "SteamVR",
+  "version": "0.0.1",
+  "description": "SteamVR made by valve",
+  "hideInEditor": false,
+  "_fingerprint": "c33a831826e64c817176fc41ffcf8f4f773c3c40"
+}

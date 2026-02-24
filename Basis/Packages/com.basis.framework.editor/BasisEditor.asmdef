@@ -1,0 +1,29 @@
+{
+    "name": "BasisEditor",
+    "rootNamespace": "",
+    "references": [
+        "Basis Framework",
+        "BasisSDKEditor",
+        "BasisCommon",
+        "BasisSDK",
+        "Unity.ResourceManager",
+        "BasisSerializer.OdinSerializer",
+        "LiteNetLib",
+        "BasisNetworkCore",
+        "Unity.Mathematics",
+        "BasisDebug",
+        "BasisBundleManagement",
+        "BasisProfiler"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

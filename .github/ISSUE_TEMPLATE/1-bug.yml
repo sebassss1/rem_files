@@ -1,0 +1,54 @@
+name: Bug Report
+description: When stuff is broken.
+labels: [bug]
+assignees: doolyl123
+body:
+  - type: textarea
+    id: Describe
+    attributes:
+      label: Describe the bug?
+      description: Plainly detail what actually happened.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: Describe the steps needed in order to reproduce the behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: The expected behavior
+      description: What you expected to happen instead.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Add media content here to assist with the troubleshooting.
+    validations:
+      required: false
+  - type: textarea
+    id: buildinfo
+    attributes:
+      label: Build Info
+      placeholder: Settings > Developer > Copy Build Info button
+    validations:
+      required: true
+  - type: textarea
+    id: log-files
+    attributes:
+      label: Log Files
+      description: Snippet of the problem occurring in the BasisVR log files.
+    validations:
+      required: true
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Any other detail about the issue goes here.
+    validations:
+      required: false

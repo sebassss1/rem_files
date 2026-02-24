@@ -1,0 +1,33 @@
+name: Feature Request
+description: Please submit your desired enhancement for the framework.
+labels: [enhancement]
+assignees: dooly123
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Is your feature request related to a problem?
+      description: A clear and brief description of what the problem is. For example, It frustrates me when...
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Describe your preferred solution
+      description: A clear and brief description of what you would like to happen instead.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Describe any considered alternatives
+      description: A clear and brief description of possible alternative solutions.
+    validations:
+      required: true
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Any other detail about the feature request goes here.
+    validations:
+      required: false

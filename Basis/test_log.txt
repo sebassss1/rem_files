@@ -1,0 +1,93 @@
+  Determinando los proyectos que se van a restaurar...
+C:\Program Files\dotnet\sdk\9.0.311\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets(107,5): warning NETSDK1212: IsTrimmable y EnableTrimAnalyzer no se admite para la plataforma de destino. Considere la posibilidad de usar varios destinos en un marco compatible para habilitar el recorte y establezca IsTrimmable solo para los marcos admitidos. Por ejemplo: [C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\LiteNetLib\LiteNetLib.csproj::TargetFramework=netstandard2.1]
+C:\Program Files\dotnet\sdk\9.0.311\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets(107,5): warning NETSDK1212: <IsTrimmable Condition="$([MSBuild]::IsTargetFrameworkCompatible('$(TargetFramework)', 'net8.0'))">true</IsTrimmable> [C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\LiteNetLib\LiteNetLib.csproj::TargetFramework=netstandard2.1]
+  Se ha restaurado C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\Contrib\PersistentKv\PersistentKv\PersistentKv.csproj (en 829 ms).
+  Se ha restaurado C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\BasisNetworkClient\BasisNetworkClient.csproj (en 817 ms).
+  Se ha restaurado C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\Contrib\Auth\Did.Tests\Tests.csproj (en 817 ms).
+  Se ha restaurado C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\Contrib\Handles\Dns.Tests\Tests.csproj (en 817 ms).
+  Se ha restaurado C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\BasisNetworkServer.Tests\BasisNetworkServer.Tests.csproj (en 817 ms).
+  Se ha restaurado C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\Contrib\Handles\Common\Common.csproj (en 817 ms).
+  Se ha restaurado C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\Contrib\Crypto.Tests\Tests.csproj (en 816 ms).
+  Se ha restaurado C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\Contrib\Handles\Dns\Dns.csproj (en 820 ms).
+  Se ha restaurado C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\Contrib\PersistentKv\PersistentKv.Tests\PersistentKv.Tests.csproj (en 828 ms).
+  Se ha restaurado C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\BasisNetworkClientConsole\BasisNetworkClientConsole\BasisNetworkClientConsole.csproj (en 816 ms).
+  6 de 16┬áproyectos est├ín actualizados para la restauraci├│n.
+C:\Program Files\dotnet\sdk\9.0.311\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets(107,5): warning NETSDK1212: IsTrimmable y EnableTrimAnalyzer no se admite para la plataforma de destino. Considere la posibilidad de usar varios destinos en un marco compatible para habilitar el recorte y establezca IsTrimmable solo para los marcos admitidos. Por ejemplo: [C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\LiteNetLib\LiteNetLib.csproj::TargetFramework=netstandard2.1]
+C:\Program Files\dotnet\sdk\9.0.311\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets(107,5): warning NETSDK1212: <IsTrimmable Condition="$([MSBuild]::IsTargetFrameworkCompatible('$(TargetFramework)', 'net8.0'))">true</IsTrimmable> [C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\LiteNetLib\LiteNetLib.csproj::TargetFramework=netstandard2.1]
+  LiteNetLib -> C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\LiteNetLib\bin\Debug\net9.0\LiteNetLib.dll
+  Crypto -> C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\Contrib\Crypto\bin\Debug\net9.0\Crypto.dll
+  Crypto -> C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\Contrib\Crypto\bin\Debug\netstandard2.1\Crypto.dll
+  Common -> C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\Contrib\Handles\Common\bin\Debug\netstandard2.1\Common.dll
+  PersistentKv -> C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\Contrib\PersistentKv\PersistentKv\bin\Debug\netstandard2.1\PersistentKv.dll
+C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\LiteNetLib\NetUtils.cs(176,30): warning CS0168: La variable 'e' se ha declarado pero nunca se usa [C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\LiteNetLib\LiteNetLib.csproj::TargetFramework=netstandard2.1]
+C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\LiteNetLib\NetManager.cs(911,50): warning CS0168: La variable 'ex' se ha declarado pero nunca se usa [C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\LiteNetLib\LiteNetLib.csproj::TargetFramework=netstandard2.1]
+  LiteNetLib -> C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\LiteNetLib\bin\Debug\netstandard2.1\LiteNetLib.dll
+  Did -> C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\Contrib\Auth\Did\bin\Debug\net9.0\Did.dll
+C:\Program Files\dotnet\sdk\9.0.311\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets(107,5): warning NETSDK1212: IsTrimmable y EnableTrimAnalyzer no se admite para la plataforma de destino. Considere la posibilidad de usar varios destinos en un marco compatible para habilitar el recorte y establezca IsTrimmable solo para los marcos admitidos. Por ejemplo: [C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\LiteNetLib\LiteNetLib.csproj::TargetFramework=netstandard2.1]
+C:\Program Files\dotnet\sdk\9.0.311\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets(107,5): warning NETSDK1212: <IsTrimmable Condition="$([MSBuild]::IsTargetFrameworkCompatible('$(TargetFramework)', 'net8.0'))">true</IsTrimmable> [C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\LiteNetLib\LiteNetLib.csproj::TargetFramework=netstandard2.1]
+  Did -> C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\Contrib\Auth\Did\bin\Debug\netstandard2.1\Did.dll
+  Al paquete LiteNetLib.1.3.1 le falta un L├®ame. Visite https://aka.ms/nuget/authoring-best-practices/readme para saber por qu├® son importantes los L├®ame de los paquetes.
+  Paquete creado correctamente 'C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\LiteNetLib\bin\Debug\LiteNetLib.1.3.1.nupkg'.
+  PersistentKv -> C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\Contrib\PersistentKv\PersistentKv\bin\Debug\net9.0\PersistentKv.dll
+  Common -> C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\Contrib\Handles\Common\bin\Debug\net9.0\Common.dll
+  BasisNetworkCore -> C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server Export\BasisNetworkCore\bin\Debug\net9.0\BasisNetworkCore.dll
+  Tests -> C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\Contrib\Crypto.Tests\bin\Debug\net9.0\Tests.dll
+Serie de pruebas para C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\Contrib\Crypto.Tests\bin\Debug\net9.0\Tests.dll (.NETCoreApp,Version=v9.0)
+  BasisNetworkCore -> C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server Export\BasisNetworkCore\bin\Debug\netstandard2.1\BasisNetworkCore.dll
+C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\Contrib\Auth\Did.Tests\ServerExample.cs(111,21): warning CS8892: El m├®todo "ServerExample.Main()" no se usar├í como punto de entrada porque se encontr├│ un punto de entrada "AutoGeneratedProgram.Main(string[])" sincr├│nico. [C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\Contrib\Auth\Did.Tests\Tests.csproj]
+  Dns -> C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\Contrib\Handles\Dns\bin\Debug\net9.0\Dns.dll
+  Dns -> C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\Contrib\Handles\Dns\bin\Debug\netstandard2.1\Dns.dll
+Versi├│n 17.14.1 (x64) de VSTest
+
+C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\BasisNetworkClient\BasisDIDAuthIdentityClient.cs(20,39): warning CS0649: El campo 'BasisDIDAuthIdentityClient.DidUrlFragment' nunca se asigna y siempre tendr├í el valor predeterminado null [C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\BasisNetworkClient\BasisNetworkClient.csproj::TargetFramework=netstandard2.1]
+C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\BasisNetworkClient\BasisDIDAuthIdentityClient.cs(19,28): warning CS0169: El campo 'BasisDIDAuthIdentityClient.DID' nunca se usa [C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\BasisNetworkClient\BasisNetworkClient.csproj::TargetFramework=netstandard2.1]
+C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\BasisNetworkClient\BasisDIDAuthIdentityClient.cs(18,42): warning CS0649: El campo 'BasisDIDAuthIdentityClient.Key' nunca se asigna y siempre tendr├í el valor predeterminado [C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\BasisNetworkClient\BasisNetworkClient.csproj::TargetFramework=netstandard2.1]
+C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\BasisNetworkServer\NetworkServer.cs(84,22): warning CS8632: La anotaci├│n para tipos de referencia que aceptan valores NULL solo debe usarse en el c├│digo dentro de un contexto de anotaciones "#nullable". [C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\BasisNetworkServer\BasisNetworkServer.csproj::TargetFramework=netstandard2.1]
+C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\BasisNetworkServer\BasisNetworking\BasisDatabase.cs(187,31): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread. [C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\BasisNetworkServer\BasisNetworkServer.csproj::TargetFramework=netstandard2.1]
+C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\BasisNetworkServer\BasisStatistics.cs(10,31): warning CS0169: El campo 'BasisStatistics.workerThread' nunca se usa [C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\BasisNetworkServer\BasisNetworkServer.csproj::TargetFramework=netstandard2.1]
+C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\BasisNetworkServer\BasisStatistics.cs(11,38): warning CS0414: El campo 'BasisStatistics.keepPolling' est├í asignado pero su valor nunca se usa [C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\BasisNetworkServer\BasisNetworkServer.csproj::TargetFramework=netstandard2.1]
+  BasisNetworkClient -> C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server Export\BasisNetworkClient\bin\Debug\netstandard2.1\BasisNetworkClient.dll
+  BasisNetworkServer -> C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server Export\BasisNetworkServer\bin\Debug\netstandard2.1\BasisNetworkServer.dll
+  Al paquete BasisNetworkCore.2.10.1 le falta un L├®ame. Visite https://aka.ms/nuget/authoring-best-practices/readme para saber por qu├® son importantes los L├®ame de los paquetes.
+  Paquete creado correctamente 'C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server Export\BasisNetworkCore\bin\Debug\BasisNetworkCore.2.10.1.nupkg'.
+C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\BasisNetworkClient\BasisDIDAuthIdentityClient.cs(20,39): warning CS0649: El campo 'BasisDIDAuthIdentityClient.DidUrlFragment' nunca se asigna y siempre tendr├í el valor predeterminado null [C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\BasisNetworkClient\BasisNetworkClient.csproj::TargetFramework=net9.0]
+C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\BasisNetworkClient\BasisDIDAuthIdentityClient.cs(18,42): warning CS0649: El campo 'BasisDIDAuthIdentityClient.Key' nunca se asigna y siempre tendr├í el valor predeterminado [C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\BasisNetworkClient\BasisNetworkClient.csproj::TargetFramework=net9.0]
+C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\BasisNetworkClient\BasisDIDAuthIdentityClient.cs(19,28): warning CS0169: El campo 'BasisDIDAuthIdentityClient.DID' nunca se usa [C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\BasisNetworkClient\BasisNetworkClient.csproj::TargetFramework=net9.0]
+  Tests -> C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\Contrib\Auth\Did.Tests\bin\Debug\net9.0\Tests.dll
+  BasisNetworkClient -> C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server Export\BasisNetworkClient\bin\Debug\net9.0\BasisNetworkClient.dll
+Serie de pruebas para C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\Contrib\Auth\Did.Tests\bin\Debug\net9.0\Tests.dll (.NETCoreApp,Version=v9.0)
+  Tests -> C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\Contrib\Handles\Dns.Tests\bin\Debug\net9.0\Tests.dll
+  PersistentKv.Tests -> C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\Contrib\PersistentKv\PersistentKv.Tests\bin\Debug\net9.0\PersistentKv.Tests.dll
+Serie de pruebas para C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\Contrib\Handles\Dns.Tests\bin\Debug\net9.0\Tests.dll (.NETCoreApp,Version=v9.0)
+Serie de pruebas para C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\Contrib\PersistentKv\PersistentKv.Tests\bin\Debug\net9.0\PersistentKv.Tests.dll (.NETCoreApp,Version=v9.0)
+Versi├│n 17.14.1 (x64) de VSTest
+
+Versi├│n 17.14.1 (x64) de VSTest
+
+Versi├│n 17.14.1 (x64) de VSTest
+
+Iniciando la ejecuci├│n de pruebas, espere...
+Iniciando la ejecuci├│n de pruebas, espere...
+Iniciando la ejecuci├│n de pruebas, espere...
+1 archivos de prueba en total coincidieron con el patr├│n especificado.
+1 archivos de prueba en total coincidieron con el patr├│n especificado.
+1 archivos de prueba en total coincidieron con el patr├│n especificado.
+Iniciando la ejecuci├│n de pruebas, espere...
+1 archivos de prueba en total coincidieron con el patr├│n especificado.
+Ninguna prueba coincide con el filtro de casos de prueba proporcionado "DatabaseEncryptionTests" en C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\Contrib\Auth\Did.Tests\bin\Debug\net9.0\Tests.dll
+Ninguna prueba coincide con el filtro de casos de prueba proporcionado "DatabaseEncryptionTests" en C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\Contrib\Crypto.Tests\bin\Debug\net9.0\Tests.dll
+
+
+  BasisNetworkServer -> C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server Export\BasisNetworkServer\bin\Debug\net9.0\BasisNetworkServer.dll
+C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\BasisNetworkServer.Tests\DatabaseEncryptionTests.cs(34,51): error CS0117: 'BasisPersistentDatabase' no contiene una definici├│n para 'Serialize' [C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\BasisNetworkServer.Tests\BasisNetworkServer.Tests.csproj]
+C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\BasisNetworkServer.Tests\DatabaseEncryptionTests.cs(41,56): error CS0117: 'BasisPersistentDatabase' no contiene una definici├│n para 'Deserialize' [C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\BasisNetworkServer.Tests\BasisNetworkServer.Tests.csproj]
+C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\BasisNetworkServer.Tests\DatabaseEncryptionTests.cs(37,13): warning xUnit2009: Do not use Assert.False() to check for substrings. Use Assert.DoesNotContain instead. (https://xunit.net/xunit.analyzers/rules/xUnit2009) [C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\BasisNetworkServer.Tests\BasisNetworkServer.Tests.csproj]
+C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\BasisNetworkServer.Tests\DatabaseEncryptionTests.cs(38,13): warning xUnit2009: Do not use Assert.False() to check for substrings. Use Assert.DoesNotContain instead. (https://xunit.net/xunit.analyzers/rules/xUnit2009) [C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\BasisNetworkServer.Tests\BasisNetworkServer.Tests.csproj]
+  Al paquete BasisNetworkClient.2.10.1 le falta un L├®ame. Visite https://aka.ms/nuget/authoring-best-practices/readme para saber por qu├® son importantes los L├®ame de los paquetes.
+  Paquete creado correctamente 'C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server Export\BasisNetworkClient\bin\Debug\BasisNetworkClient.2.10.1.nupkg'.
+  Al paquete BasisNetworkServer.2.10.1 le falta un L├®ame. Visite https://aka.ms/nuget/authoring-best-practices/readme para saber por qu├® son importantes los L├®ame de los paquetes.
+  Paquete creado correctamente 'C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server Export\BasisNetworkServer\bin\Debug\BasisNetworkServer.2.10.1.nupkg'.
+Ninguna prueba coincide con el filtro de casos de prueba proporcionado "DatabaseEncryptionTests" en C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\Contrib\PersistentKv\PersistentKv.Tests\bin\Debug\net9.0\PersistentKv.Tests.dll
+
+Ninguna prueba coincide con el filtro de casos de prueba proporcionado "DatabaseEncryptionTests" en C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\Contrib\Handles\Dns.Tests\bin\Debug\net9.0\Tests.dll
+

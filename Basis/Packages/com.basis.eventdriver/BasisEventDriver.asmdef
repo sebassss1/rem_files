@@ -1,0 +1,20 @@
+{
+    "name": "BasisEventDriver",
+    "rootNamespace": "",
+    "references": [
+        "BasisConsoleDisplay",
+        "Basis Framework",
+        "Unity.InputSystem",
+        "com.gator-dragon-games.jigglephysics",
+        "SteamAudioUnity"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

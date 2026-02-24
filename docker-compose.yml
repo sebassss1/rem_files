@@ -1,0 +1,25 @@
+services:
+  basis-server:
+    image: ghcr.io/${GITHUB_REPOSITORY_OWNER}/basis-server:latest
+    build:
+      context: "./Basis Server"
+      dockerfile: "Docker/Dockerfile"
+    ports:
+      - "4296:4296/udp"   # Game Traffic
+      - "10666:10666/tcp" # Health Check
+      - "1234:1234/tcp"   # Prometheus
+    environment:
+      - SetPort=4296
+      - HealthCheckPort=10666
+      - PromethusPort=1234
+      - Password=default_password
+      - UsingLoggingFile=true
+    volumes:
+      - ./data:/app/data
+    restart: always
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:10666/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s

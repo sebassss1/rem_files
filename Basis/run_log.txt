@@ -1,0 +1,11 @@
+[14:06] [INFO] Logs are saved to C:\Users\Sebastian Mertic\Videos\Basis-developer_rem\Basis-developer\Basis Server\BasisServerConsole\bin\Debug\net9.0\logs\2026-02-24.log
+[14:06] [INFO] Server Booting
+[14:06] [INFO] HTTP health check started at 'http://localhost:10666/health'
+[14:06] [INFO] Loaded Admins 0 
+[14:06] [INFO] DidAuthIdentity initialized.
+[14:06] [INFO] Server Wiring up SetPort 4296
+[14:06] [INFO] Server Worker Threads Booted
+[14:06] [INFO] Test database item injected for RA5 verification.
+Error: The folder 'initialresources' does not exist.
+[14:06] [ERROR] Failed to save data: Specified key is not a valid size for this algorithm.
+[14:06] [ERROR] Failed to save data: Specified key is not a valid size for this algorithm.

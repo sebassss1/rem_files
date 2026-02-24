@@ -1,0 +1,19 @@
+{
+    "name": "BasisNetworkServer",
+    "rootNamespace": "",
+    "references": [
+        "LiteNetLib",
+        "BasisNetworkCore",
+        "Did",
+        "Crypto"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
