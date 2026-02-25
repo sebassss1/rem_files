@@ -2,8 +2,8 @@ services:
   basis-server:
     image: ghcr.io/${GITHUB_REPOSITORY_OWNER}/basis-server:latest
     build:
-      context: "./Basis Server"
-      dockerfile: "Docker/Dockerfile"
+      context: "."
+      dockerfile: "Basis Server/Docker/Dockerfile"
     ports:
       - "4296:4296/udp"   # Game Traffic
       - "10666:10666/tcp" # Health Check

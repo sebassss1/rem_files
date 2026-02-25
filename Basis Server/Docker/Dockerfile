@@ -3,7 +3,7 @@ FROM mcr.microsoft.com/dotnet/sdk:9.0-bookworm-slim AS build
 WORKDIR /src
 
 # Copy the entire server project (including .props, Contrib, LiteNetLib, etc.)
-COPY ["../", "Server/"]
+COPY ["Basis Server/", "Server/"]
 
 WORKDIR "/src/Server/BasisServerConsole"
 
@@ -18,7 +18,7 @@ FROM mcr.microsoft.com/dotnet/runtime:9.0-bookworm-slim
 RUN apt-get update && \
     apt-get install -y --no-install-recommends curl && \
     rm -rf /var/lib/apt/lists/*
-    
+
 WORKDIR /app
 
 # Copy the published output
