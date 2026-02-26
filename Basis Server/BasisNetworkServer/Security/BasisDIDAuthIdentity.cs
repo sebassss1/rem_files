@@ -124,7 +124,7 @@ namespace BasisDidLink
                         {
                             await TimeOut(newPeer, UUID, cts);
                         });
-                        //   BasisServerHandleEvents.OnNetworkAccepted(newPeer, readyMessage, playerDid.V);
+                        BasisServerHandleEvents.OnNetworkAccepted(newPeer, readyMessage, playerDid.V); // Sprint 6 Bypass: Auto-accept the player
                     }
                     else
                     {
