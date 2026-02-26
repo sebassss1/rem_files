@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Configuration>
   <Password>default_password</Password>
   <Ip>100.28.229.15</Ip>
   <Port>4296</Port>
-  <ClientCount>5</ClientCount>
+  <ClientCount>1</ClientCount>
   <AvatarPassword>default_avatar_password</AvatarPassword>
   <AvatarUrl>http://localhost/avatar</AvatarUrl>
   <AvatarLoadMode>1</AvatarLoadMode>

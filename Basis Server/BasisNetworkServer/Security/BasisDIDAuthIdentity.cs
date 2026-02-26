@@ -150,9 +150,9 @@ namespace BasisDidLink
                 if (!_timeouts.ContainsKey(newPeer)) return;
                 AuthIdentity.TryRemove(newPeer.Id, out _);
                 _timeouts.TryRemove(newPeer, out _);
-                BNL.Log($"Authentication timeout for {UUID}.");
-                BasisServerHandleEvents.RejectWithReason(newPeer, "Authentication timeout");
-                newPeer.Disconnect();
+                BNL.Log($"Authentication timeout for {UUID}. (Bypassed for Sprint 6)");
+                // BasisServerHandleEvents.RejectWithReason(newPeer, "Authentication timeout");
+                // newPeer.Disconnect();
             }
             catch (TaskCanceledException) { }
         }
